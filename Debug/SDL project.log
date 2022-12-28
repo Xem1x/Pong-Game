@@ -1,0 +1,37 @@
+﻿  Bot.cpp
+  Game.cpp
+H:\proj\SDL project\SDL project\Game.cpp(171,40): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\utility(172,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+H:\proj\SDL project\SDL project\Game.cpp(162,34): message : see reference to function template instantiation 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+H:\proj\SDL project\SDL project\Game.cpp(162,22): message : see reference to function template instantiation 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\utility(172,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  Player.cpp
+  Source.cpp
+  Generating Code...
+  SDL project.vcxproj -> H:\proj\SDL project\Debug\SDL project.exe
